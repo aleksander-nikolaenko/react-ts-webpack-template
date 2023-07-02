@@ -1,0 +1,44 @@
+.authBtn {
+  font-weight: var(--bold);
+  border-radius: 5px;
+  padding: 16px 0;
+  border: none;
+  background-color: var(--accent-cl);
+}
+
+.small {
+  min-width: 200px;
+}
+
+.large {
+  width: 100%;
+}
+
+.grey {
+  background-color: var(--disabled-cl);
+  color: var(--secondary-txt-cl);
+}
+
+.blue {
+  background-color: var(--accent-cl);
+}
+
+.white {
+  background-color: var(--primary-txt-cl);
+}
+
+.authBtn:disabled {
+  background-color: var(--disabled-cl);
+  color: var(--secondary-txt-cl);
+}
+
+.noBackgroundAccent {
+  background-color: transparent;
+  border: 2px solid var(--accent-cl);
+  color: var(--accent-cl);
+}
+
+.noBackgroundGray {
+  background-color: transparent;
+  border: 1px solid var(--disabled-cl);
+}

@@ -1,0 +1,46 @@
+:root {
+  --accent-cl: #3653f2;
+
+  /*BACKGROUND COLORS*/
+  --primary-cl: #0a0e29;
+  --secondary-cl: #080b25;
+  --components-cl: #121533;
+
+  /* TEXT COLORS */
+  --primary-txt-cl: #f8f8f8;
+  --secondary-txt-cl: #9d9fb5;
+
+  /*BUTTONS*/
+  --copy-btn-cl: #5599ff;
+
+  /*OTHER COLORS*/
+  --disabled-cl: #464962;
+  --message-cl: #ffd84f;
+  --success-cl: #47c05d;
+  --success-cl-rgb: rgba(71, 192, 93, 0.3);
+  --error-cl: #ee4343;
+  --error-cl-rgb: rgba(238, 67, 67, 0.3);
+  --purple-cl: #9747ff;
+  --light-purple-cl: #7368f0;
+  --wrong-cl: #ff3b6a;
+  --right-cl: #2eac61;
+
+  /* TRANSITION */
+  --transition: all 250ms linear;
+
+  /*FONTS*/
+  --font-family: 'Inter', sans-serif;
+  --line-height: 1.3;
+
+  /*FONT SIZE*/
+  --title: 30px;
+  --subtitle: 20px;
+  --text-lg: 16px;
+  --text-md: 14px;
+  --text-sm: 12px;
+
+  /*FONT WEIGHT*/
+  --extrabold: 800;
+  --bold: 700;
+  --regular: 400;
+}
